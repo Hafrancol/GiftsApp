@@ -1,0 +1,23 @@
+.search-component{
+    width: 100%;
+    text-align: left;
+    h2{
+        margin-bottom: 20px;}
+        
+    input {
+        width: 75%;
+        display: block;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid;
+        margin: 0 auto;
+        font-size: 23px;
+        padding: 6px;
+        font-family: 'monospace';
+
+        &:focus{
+            background-color: rgb(246, 246, 246);
+            border: 0px;
+        }
+    }
+}

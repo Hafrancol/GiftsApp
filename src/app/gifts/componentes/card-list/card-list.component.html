@@ -1,0 +1,17 @@
+<div ngif>
+
+</div>
+
+<div class="card-list-container">
+    
+    <div class="card-container" *ngFor="let gift of gifts">
+        
+        <img class="card-img" [src]="gift.images.original.url">
+
+        <div class="card-body">
+            <p>{{gift.title}}</p>
+        </div>
+
+    </div>
+
+</div>

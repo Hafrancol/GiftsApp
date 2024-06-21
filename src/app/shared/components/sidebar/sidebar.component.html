@@ -1,0 +1,12 @@
+<div class="sidebar-component">
+    <h1>GifsApp</h1>
+    <hr>
+    <div class="list-group">
+
+        <button class="button-list" *ngFor="let history of listHistory" (click)="onCLick(history)">
+            {{history | titlecase}}
+        </button>
+
+
+    </div>
+</div>
